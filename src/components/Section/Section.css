@@ -1,0 +1,11 @@
+section{
+
+    background-color: rgba(19, 16, 16, 0.956);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto 15px auto;
+    border-radius: 20px;
+    color: white;
+}
