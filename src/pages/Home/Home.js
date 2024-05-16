@@ -1,7 +1,24 @@
 import React from 'react';
 import './Home.css';
 
-const Home = () => (
+const Home = () =>  {
+
+      const onButtonClick = () => {
+     
+        fetch("CV_CYPRIEN_JS.pdf").then((response) => {
+            response.blob().then((blob) => {
+             
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement("a");
+                alink.href = fileURL;
+                alink.download = "CV_CYPRIEN_JS.pdf";
+                alink.click();
+            });
+        });
+    };
+  
+  return(
     <div class="main-contents">
       <div class="hero-text">
         <div className='img-zone'>
@@ -11,6 +28,9 @@ const Home = () => (
         <div className='container-title-presentation'>
           <h1> Paola CYPRIEN</h1>
           <h2>Développeuse Frontend Junior</h2>
+          <button onClick={onButtonClick}>
+           Télécharger mon CV
+        </button>
         </div>
         <ul className='medias-links'>
           <li>            
@@ -24,6 +44,7 @@ const Home = () => (
             </a>
           </li>
         </ul>
+
         <div className="contents-body">
             <p>
               Bienvenue sur mon portfolio, spécialisée côtée interface utilisateur, j'aime créer des interfaces clients visuellement agréables, fluides et facile à utiliser.
@@ -31,6 +52,6 @@ const Home = () => (
         </div>
       </div>
     </div>
-);
+)};
 
 export default Home;

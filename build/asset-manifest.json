@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1e4d738.css",
+    "main.js": "/static/js/main.eeac6c54.js",
+    "static/js/453.420acfe6.chunk.js": "/static/js/453.420acfe6.chunk.js",
+    "static/media/beauty-galaxy.png": "/static/media/beauty-galaxy.c9c0fe4c6989b46dd85c.png",
+    "static/media/cine-moi.png": "/static/media/cine-moi.cf4817ea4e6db66617cf.png",
+    "static/media/pawel-unsplash.jpg": "/static/media/pawel-unsplash.e0e0a4b4db28f8f75dab.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/client-symfo-sound.jpg": "/static/media/client-symfo-sound.e827deac117960a1504c.jpg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/backoffice-sound.png": "/static/media/backoffice-sound.aee92ae4c55fb0c27d63.png",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/my-sql.svg": "/static/media/my-sql.c7584630ffb7a6b806a75589d61f0161.svg",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "static/media/react.svg": "/static/media/react.4d41647ad734ab33b79c35a6a5c6fa87.svg",
+    "static/media/symfony.svg": "/static/media/symfony.45d353c1dfd3e301cf2406c04e4bd503.svg",
+    "static/media/php.svg": "/static/media/php.099cd051f27e93830fcdb7b1ac05bc40.svg",
+    "static/media/javascript.svg": "/static/media/javascript.308f87a4cea3df759a42685d9b19ee0f.svg",
+    "static/media/typescript.svg": "/static/media/typescript.c1db4aff1397128fb82f0cad63c87964.svg",
+    "static/media/angular.svg": "/static/media/angular.a4b259995800980be5ae8d81f2bb23e9.svg",
+    "index.html": "/index.html",
+    "main.b1e4d738.css.map": "/static/css/main.b1e4d738.css.map",
+    "main.eeac6c54.js.map": "/static/js/main.eeac6c54.js.map",
+    "453.420acfe6.chunk.js.map": "/static/js/453.420acfe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1e4d738.css",
+    "static/js/main.eeac6c54.js"
+  ]
+}
