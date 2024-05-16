@@ -5,12 +5,12 @@ const Home = () => (
     <div class="main-contents">
       <div class="hero-text">
         <div className='img-zone'>
-          <img src="https://blog.tattooforaweek.com/wp-content/uploads/2015/01/Rihanna-4-1170x731-580x362.jpg" alt=''  w />
+          <img src={"https://media.licdn.com/dms/image/D4E03AQFBNXBbaBv2lA/profile-displayphoto-shrink_400_400/0/1698164012601?e=1721260800&v=beta&t=3kwP7xK5c2pHE7I6Ff5TEGCUc9QtDZM07FTiBLhMH34"} alt='paola'  w />
         </div>
 
         <div className='container-title-presentation'>
           <h1> Paola CYPRIEN</h1>
-          <h2>Développeuse Front end</h2>
+          <h2>Développeuse Frontend Junior</h2>
         </div>
 
         <div className="contents-body">
