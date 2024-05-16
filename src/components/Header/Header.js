@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
     <ul>
-        <li><a href="#presentation"  tabindex="0"> Présentation</a></li>
-        <li><a href="#process" tabindex="0">Parcours</a></li>
-        <li><a href="#projects" tabindex="0">Projets</a></li>
-        <li><a href="#contact" tabindex="0">Contacter</a></li>
+        <li><Link to="/"  > Présentation</Link></li>
+        <li><Link to="projects" >Projets</Link></li>
+        <li><Link to="contact" >Contact</Link></li>
     </ul>
   </header>
 );

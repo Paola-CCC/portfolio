@@ -1,0 +1,92 @@
+
+.main-contents{
+    background-color: darkblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src//assets/pawel-unsplash.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+  
+  .hero-text {
+    text-align: center;
+    /* background-color: chartreuse; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  .img-zone {
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .img-zone img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit:cover;
+  }
+  
+  .container-title-presentation {
+    /* background-color: blue; */
+    padding: 25px 0;
+  
+  }
+  .hero-text .container-title-presentation h1 {
+    /* margin: 0; */
+    font-size: 22px;
+  }
+  
+  .hero-text .container-title-presentation h2 {
+    font-size: 20px;
+    margin: 0;
+
+  }
+  
+  .contents-body {
+    background-color: rgba(53, 38, 67, 0.927);
+    padding: 20px ;
+    margin-bottom: 25px;
+    text-align: justify;
+    border-radius: 10px;
+    color: rgb(232, 232, 232);
+  }
+  
+  ul.medias-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul.medias-links li {
+    margin: 10px 12px ;
+  }
+  ul li i.fa-brands {
+    color: rgb(255, 255, 255)
+  }
