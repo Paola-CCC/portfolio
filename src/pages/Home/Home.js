@@ -12,13 +12,6 @@ const Home = () => (
           <h1> Paola CYPRIEN</h1>
           <h2>Développeuse Frontend Junior</h2>
         </div>
-
-        <div className="contents-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nulla, similique sunt, sapiente unde possimus modi cum provident vero voluptates ad amet molestiae repellendus reiciendis temporibus pariatur natus repellat neque.
-            </p>
-        </div>
-
         <ul className='medias-links'>
           <li>            
             <a href='https://github.com/Paola-CCC'> 
@@ -31,6 +24,11 @@ const Home = () => (
             </a>
           </li>
         </ul>
+        <div className="contents-body">
+            <p>
+              Bienvenue sur mon portfolio, spécialisée côtée interface utilisateur, j'aime créer des interfaces clients visuellement agréables, fluides et facile à utiliser.
+            </p>
+        </div>
       </div>
     </div>
 );

@@ -6,18 +6,24 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
   }
   
   .hero-text {
     text-align: center;
     /* background-color: chartreuse; */
-    position: absolute;
+    margin-top: 100px;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: #ffffff;
+    height: fit-content;
   
   }
   
@@ -61,32 +67,46 @@
   }
   .hero-text .container-title-presentation h1 {
     /* margin: 0; */
-    font-size: 22px;
+    font-size: 24px;
   }
   
   .hero-text .container-title-presentation h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
 
   }
   
   .contents-body {
-    background-color: rgba(53, 38, 67, 0.927);
+    background-color: rgba(64, 48, 78, 0.821);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
+    /* background-color: rgba(231, 231, 231, 0.8); */
+    /* border: 5px solid rgb(33, 15, 60); */
+    width: 70%;
     padding: 20px ;
     margin-bottom: 25px;
     text-align: justify;
     border-radius: 10px;
-    color: rgb(232, 232, 232);
+    color: rgb(191, 182, 205);
+    /* color: rgb(23, 23, 23); */
+    margin: 0 auto;
+    font-size: 20px;
   }
+
+  .contents-body p {
+    /* background-color: rgb(163, 136, 127); */
+    margin: 0;
+  }
+
   
   ul.medias-links {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
   }
   
   ul.medias-links li {
     margin: 10px 12px ;
   }
-  ul li i.fa-brands {
+  ul.medias-links li i.fa-brands {
     color: rgb(255, 255, 255)
   }

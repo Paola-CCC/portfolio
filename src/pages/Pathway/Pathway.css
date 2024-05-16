@@ -1,0 +1,78 @@
+.pathway {
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.pathway section {
+    /* background-color: rgb(248, 248, 248); */
+    color: black;
+    width: 850px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pathway section#skills .skills-container {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items:center;
+    grid-auto-flow: row;
+    grid-gap: 20px;
+ 
+}
+
+.pathway section#skills .skills-container .skill  {
+    /* background-color: rgb(244, 244, 244); */
+    padding: 10px;
+    height: auto;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pathway section#skills .skills-container .skill  p {
+    /* background-color: cyan; */
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 18px;
+}
+
+.pathway section#skills .skills-container .skill .svg-container {
+    background-color: cyan;
+    height: 60px;
+    width: 60px;
+}
+
+.pathway section#skills  .skills-container .skill .svg-container svg {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    fill:rgb(255, 255, 255);
+}
+
+.pathway section#skills  .skills-container .skill div.svg-container.symfo svg {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    fill:rgb(0, 0, 0);
+}
+
+
+
+.pathway section ul li span {
+    display: block;
+}
+
+  
+.pathway section ul li h4{
+    margin: 15px 0; 
+}
+
