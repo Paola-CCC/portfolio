@@ -28,9 +28,9 @@ const Home = () =>  {
         <div className='container-title-presentation'>
           <h1> Paola CYPRIEN</h1>
           <h2>Développeuse Frontend Junior</h2>
-          <button onClick={onButtonClick}>
+          {/* <button onClick={onButtonClick}>
            Télécharger mon CV
-        </button>
+        </button> */}
         </div>
         <ul className='medias-links'>
           <li>            
