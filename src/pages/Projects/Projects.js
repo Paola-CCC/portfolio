@@ -105,11 +105,11 @@ const Projects = () => (
                     CINE & MOI
                   </h2>
                   
-                  <p> Blog autour du cinéma et des séries</p>
+                  <p> Blog autour du cinéma et des séries - En cours de construction...</p>
                   <div className='links-group'> 
-                    <a href='https://github.com/Paola-CCC/ng-php-blog/tree/main/ng-client'>  <i className="fa-brands fa-github"></i> Front </a>
-                    <a href='https://github.com/Paola-CCC/ng-php-blog/tree/main/backend'>  <i className="fa-brands fa-github"></i> Back </a>
-                    {/* <a href='#'> <i className="fa-solid fa-globe"></i> Rendu </a> */}
+                    <a href='https://github.com/Paola-CCC/ng-film-blog'>  <i className="fa-brands fa-github"></i> Front </a>
+                    <a href='https://github.com/Paola-CCC/backend-php-film'>  <i className="fa-brands fa-github"></i> Back </a>
+                    <a href='https://ng-film-blog.vercel.app/#/home'> <i className="fa-solid fa-globe"></i> Rendu </a>
                   </div>
                   <ul>
                     <li>Angular</li>
