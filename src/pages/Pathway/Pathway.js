@@ -30,7 +30,7 @@ const Pathway = () => (
               <div className='svg-container'>
                 <ReactLogo />
               </div>
-             <p> React JS</p>
+             <p> ReactJS</p>
           </div>
 
           <div className='skill'>
@@ -73,16 +73,16 @@ const Pathway = () => (
       <section>
               <ul>
                   <li>
-                      <h4> Expérience </h4>
-                    <span> Développeuse Frontend Angular en Alternance</span>
-                    <span> Caisse nationale d'assurance vieillesse </span>
-                    <span> 75019, Paris, Ile-de-France | Octobre 2021 - Septembre 2023 </span>
+                      <h3> Expérience </h3>
+                    <p> Développeuse Frontend Angular en Alternance</p>
+                    <p> Caisse nationale d'assurance vieillesse (CNAV)</p>
+                    <p> 75019, Paris, Ile-de-France | Octobre 2021 - Septembre 2023 </p>
                   </li>
                   <li>
-                    <h4> Formation </h4>
-                    <span> Bachelor de Concepteur développeur</span>
-                    <span> HETIC - Hautes études des technologies de l'information et de la communication</span>
-                    <span> Octobre 2020 - Septembre 2023</span>
+                    <h3> Formation </h3>
+                    <p> Bachelor de Concepteur développeur</p>
+                    <p> HETIC - Hautes études des technologies de l'information et de la communication</p>
+                    <p> Octobre 2020 - Septembre 2023</p>
                   </li>
               </ul>
       </section>

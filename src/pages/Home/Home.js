@@ -1,28 +1,27 @@
 import React from 'react';
 import './Home.css';
+import photoPerso from './../../assets/moi.jpg';
 
 const Home = () =>  {
 
-      const onButtonClick = () => {
-     
-        fetch("CV_CYPRIEN_JS.pdf").then((response) => {
-            response.blob().then((blob) => {
+    //   const onButtonClick = () => {
+    //     fetch("CV_CYPRIEN_JS.pdf").then((response) => {
+    //         response.blob().then((blob) => {
              
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement("a");
-                alink.href = fileURL;
-                alink.download = "CV_CYPRIEN_JS.pdf";
-                alink.click();
-            });
-        });
-    };
+    //             const fileURL = window.URL.createObjectURL(blob);
+    //             let alink = document.createElement("a");
+    //             alink.href = fileURL;
+    //             alink.download = "CV_CYPRIEN_JS.pdf";
+    //             alink.click();
+    //         });
+    //     });
+    // };
   
   return(
     <div class="main-contents">
       <div class="hero-text">
         <div className='img-zone'>
-          <img src={"https://media.licdn.com/dms/image/D4E03AQFBNXBbaBv2lA/profile-displayphoto-shrink_400_400/0/1698164012601?e=1721260800&v=beta&t=3kwP7xK5c2pHE7I6Ff5TEGCUc9QtDZM07FTiBLhMH34"} alt='paola'  w />
+          <img src={photoPerso} alt='paola'  />
         </div>
 
         <div className='container-title-presentation'>
@@ -30,7 +29,16 @@ const Home = () =>  {
           <h2>Développeuse Frontend Junior</h2>
           {/* <button onClick={onButtonClick}>
            Télécharger mon CV
-        </button> */}
+          </button> */}
+        </div>
+
+        <div className="contents-body">
+            <h5>
+              Bienvenue sur mon portfolio
+            </h5>
+            <p>
+              Spécialisée côtée interface utilisateur, j'aime créer des interfaces clients visuellement agréables, fluides et facile à utiliser.
+            </p>
         </div>
         <ul className='medias-links'>
           <li>            
@@ -45,11 +53,6 @@ const Home = () =>  {
           </li>
         </ul>
 
-        <div className="contents-body">
-            <p>
-              Bienvenue sur mon portfolio, spécialisée côtée interface utilisateur, j'aime créer des interfaces clients visuellement agréables, fluides et facile à utiliser.
-            </p>
-        </div>
       </div>
     </div>
 )};

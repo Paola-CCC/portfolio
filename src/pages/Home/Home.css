@@ -3,6 +3,7 @@
     background-color: darkblue;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src//assets/pawel-unsplash.jpg");
     height: 100vh;
+    padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,22 +80,25 @@
   .contents-body {
     background-color: rgba(64, 48, 78, 0.821);
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
-    /* background-color: rgba(231, 231, 231, 0.8); */
-    /* border: 5px solid rgb(33, 15, 60); */
     width: 70%;
     padding: 20px ;
     margin-bottom: 25px;
     text-align: justify;
     border-radius: 10px;
-    color: rgb(191, 182, 205);
-    /* color: rgb(23, 23, 23); */
+    color: rgb(198, 190, 215);
     margin: 0 auto;
     font-size: 20px;
   }
 
+  .contents-body h5 {
+    margin: 10px 0;
+    text-align: center;
+  }
+
   .contents-body p {
-    /* background-color: rgb(163, 136, 127); */
     margin: 0;
+    font-size: 1rem;
+    text-align: center;
   }
 
 
@@ -109,7 +113,7 @@
   ul.medias-links {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-top: 25px;
   }
   
   ul.medias-links li {

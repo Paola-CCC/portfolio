@@ -33,7 +33,7 @@ const Projects = () => (
                   </div>
                   <ul>
                     <li>React JS </li>
-                    <li>Symfony 6</li>
+                    <li>Symfony</li>
                     <li>Sass</li>
                   </ul>
               </div>
@@ -61,7 +61,7 @@ const Projects = () => (
                   <ul>
                     <li>React</li>
                     <li>TypeScript </li>
-                    <li>Symfony 6</li>
+                    <li>Symfony</li>
                     <li>Sass</li>
                   </ul>
               </div>
@@ -96,7 +96,7 @@ const Projects = () => (
             </div>
 
                         {/* MOVIES'N CO */}
-                        <div className="card">
+            <div className="card">
               <div className="card-photo">
                 <img alt='cineMoi' src={cineMoiPhoto} />
               </div>
