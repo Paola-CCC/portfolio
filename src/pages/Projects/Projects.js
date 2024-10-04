@@ -105,7 +105,7 @@ const Projects = () => (
                     CINE & MOI
                   </h2>
                   
-                  <p> Blog autour du cinéma et des séries - En cours de construction...</p>
+                  <p> Blog autour du cinéma et des séries</p>
                   <div className='links-group'> 
                     <a href='https://github.com/Paola-CCC/ng-film-blog'>  <i className="fa-brands fa-github"></i> Front </a>
                     <a href='https://github.com/Paola-CCC/backend-php-film'>  <i className="fa-brands fa-github"></i> Back </a>
