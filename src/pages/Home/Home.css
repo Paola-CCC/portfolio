@@ -1,7 +1,6 @@
 
 .main-contents{
-    background-color: darkblue;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src//assets/pawel-unsplash.jpg");
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);    
     height: 100vh;
     padding: 10px;
     background-position: center;
@@ -85,7 +84,7 @@
     margin-bottom: 25px;
     text-align: justify;
     border-radius: 10px;
-    color: rgb(198, 190, 215);
+    color: rgb(228, 221, 242);
     margin: 0 auto;
     font-size: 20px;
   }

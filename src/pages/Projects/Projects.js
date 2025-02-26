@@ -4,15 +4,14 @@ import clientSound from'../../assets/screens/client-symfo-sound.jpg';
 import beautyGalaxyPhoto from'../../assets/screens/beauty-galaxy.png';
 import cineMoiPhoto from'../../assets/screens/cine-moi.png';
 import backOfficeSymfoPhoto from'../../assets/screens/backoffice-sound.png';
+import cliqueAchat from'../../assets/screens/clique-achat.png';
 
 
 
 
 const Projects = () => (
-  <div className="projects-container">
-
-
-      <div className="card-container  projects-group">
+  <>
+      <div className="card-container projects-group">
     
             <div className="card">
               
@@ -120,10 +119,35 @@ const Projects = () => (
               </div>
             </div>
 
+
+
+                        {/* MOVIES'N CO */}
+            <div className="card">
+              <div className="card-photo">
+                <img alt='cineMoi' src={cliqueAchat} />
+              </div>
+              <div  className='card-body'>
+                  <h2>
+                    CLIQUE & BUY
+                  </h2>
+                  
+                  <p>Site d'achat et de vente de produits</p>
+                  <div className='links-group'> 
+                    <a href='https://github.com/Paola-CCC/ng-vendre-acheter'>  <i className="fa-brands fa-github"></i> Front </a>
+                    <a href='https://ng-vendre-acheter.vercel.app/accueil'> <i className="fa-solid fa-globe"></i> Rendu </a>
+                  </div>
+                  <ul>
+                    <li>Angular</li>
+                    <li>TypeScript </li>
+                    <li>Sass</li>
+                    <li>Json-server</li>
+                  </ul>
+              </div>
+            </div>
+
         
       </div>
-
-  </div>
+  </>
 );
 
 

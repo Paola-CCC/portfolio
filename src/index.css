@@ -23,3 +23,7 @@ code {
 body, html {
   height: 100vh;
 }
+
+div#root {
+  height: 100vh;
+}
